@@ -1,0 +1,108 @@
+/* Navbar */
+.w3-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .w3-bar {
+    letter-spacing: 4px;
+  }
+  
+  .w3-bar-item {
+    padding: 16px;
+  }
+  
+  /* Header */
+  header {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  header img {
+    width: 100%;
+    height: auto;
+  }
+  
+  header .w3-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Main Content */
+  .w3-content {
+    max-width: 1564px;
+    margin: auto;
+  }
+  
+  /* Project Section */
+  .w3-container h3 {
+    font-size: 24px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .w3-row-padding img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .w3-display-container .w3-display-topleft {
+    padding: 8px;
+    background: black;
+    color: white;
+  }
+  
+  /* About Section */
+  #about img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #about .w3-opacity {
+    font-style: italic;
+  }
+  
+  /* Contact Section */
+  form .w3-input {
+    margin-bottom: 16px;
+  }
+  
+  form .w3-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: black;
+    color: white;
+    text-align: center;
+  }
+  
+  form .w3-button i {
+    margin-right: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 24px;
+  }
+  
+  footer img {
+    width: 70%;
+    height: auto;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .w3-bar .w3-right, .w3-bar .w3-hide-small {
+      display: none;
+    }
+  
+    .w3-bar-item {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
